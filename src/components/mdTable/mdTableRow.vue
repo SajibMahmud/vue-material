@@ -58,7 +58,12 @@
       mdItem(newValue, oldValue) {
         this.parentTable.data[this.index] = this.mdItem;
         this.handleMultipleSelection(newValue === oldValue);
+      },
+	  mdSelected(newValue, oldValue) {
+      if (newValue) {
+        this.parentTable.setRowSelection(newValue, this.mdItem);
       }
+    }
     },
     methods: {
       setRowSelection(value, row) {

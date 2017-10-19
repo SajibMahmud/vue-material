@@ -1094,6 +1094,11 @@ exports.default = {
     mdItem: function mdItem(newValue, oldValue) {
       this.parentTable.data[this.index] = this.mdItem;
       this.handleMultipleSelection(newValue === oldValue);
+    },
+    mdSelected: function mdSelected(newValue, oldValue) {
+      if (newValue) {
+        this.parentTable.setRowSelection(newValue, this.mdItem);
+      }
     }
   },
   methods: {
