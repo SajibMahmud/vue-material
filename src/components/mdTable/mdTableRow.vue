@@ -29,13 +29,13 @@
     props: {
       mdAutoSelect: Boolean,
       mdSelection: Boolean,
+      checkbox: Boolean,
       mdItem: Object
     },
     data() {
       return {
         parentTable: {},
         headRow: false,
-        checkbox: false,
         index: 0,
         uuid: `mdrow_uuid_${uniqueId()}`
       };
@@ -104,13 +104,13 @@
         this.$emit(value ? 'selected' : 'deselected', this.mdItem);
       },
       autoSelect() {
-        if (this.mdAutoSelect) {
-          if (this.hasSelection) {
+		if (this.mdAutoSelect) {
+			if (this.hasSelection) {
 			  this.checkbox = !this.checkbox;
 			  this.handleSingleSelection(this.checkbox);
 			  this.parentTable.emitSelection();
-          }
-          this.$emit(!this.hasSelection || this.checkbox ? 'selected' : 'deselected', this.mdItem);
+			}
+		this.$emit(!this.hasSelection || this.checkbox ? 'selected' : 'deselected', this.mdItem);
         }
       },
       startTableRow() {
