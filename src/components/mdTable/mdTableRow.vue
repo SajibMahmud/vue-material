@@ -61,9 +61,9 @@
       },
 	  mdSelected(newValue, oldValue) {
       if (newValue) {
-        this.parentTable.setRowSelection(newValue, this.mdItem);
+        this.select(newValue);
       }
-    }
+	  }
     },
     methods: {
       setRowSelection(value, row) {

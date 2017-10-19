@@ -1097,7 +1097,7 @@ exports.default = {
     },
     mdSelected: function mdSelected(newValue, oldValue) {
       if (newValue) {
-        this.parentTable.setRowSelection(newValue, this.mdItem);
+        this.select(newValue);
       }
     }
   },
