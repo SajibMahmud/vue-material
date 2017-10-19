@@ -36,7 +36,7 @@
       return {
         parentTable: {},
         headRow: false,
-        checkbox: this.mdSelected,
+        checkbox: false,
         index: 0,
         uuid: `mdrow_uuid_${uniqueId()}`
       };
@@ -60,6 +60,7 @@
         this.handleMultipleSelection(newValue === oldValue);
       },
 	  mdSelected(newValue, oldValue) {
+	  this.checkbox = newValue;
       if (newValue) {
         this.select(newValue);
       }
