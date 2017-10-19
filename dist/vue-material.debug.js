@@ -16615,7 +16615,7 @@ exports.default = {
     return {
       parentTable: {},
       headRow: false,
-      checkbox: false,
+      checkbox: this.mdSelected,
       index: 0,
       uuid: 'mdrow_uuid_' + (0, _uniqueId2.default)()
     };

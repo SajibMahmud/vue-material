@@ -36,7 +36,7 @@
       return {
         parentTable: {},
         headRow: false,
-        checkbox: false,
+        checkbox: this.mdSelected,
         index: 0,
         uuid: `mdrow_uuid_${uniqueId()}`
       };
