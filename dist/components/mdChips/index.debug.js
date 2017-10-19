@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 456);
+/******/ 	return __webpack_require__(__webpack_require__.s = 455);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -282,7 +282,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdChips/mdChips.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdChips\\mdChips.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdChips.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -293,9 +293,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5cd17226", Component.options)
+    hotAPI.createRecord("data-v-e4937628", Component.options)
   } else {
-    hotAPI.reload("data-v-5cd17226", Component.options)
+    hotAPI.reload("data-v-e4937628", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -518,10 +518,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     },
     nativeOn: {
       "keydown": [function($event) {
-        if (!('button' in $event) && _vm._k($event.keyCode, "delete", [8, 46])) { return null; }
+        if (!('button' in $event) && _vm._k($event.keyCode, "delete", [8, 46], $event.key)) { return null; }
         _vm.deleteLastChip($event)
       }, function($event) {
-        if (!('button' in $event) && _vm._k($event.keyCode, "enter", 13)) { return null; }
+        if (!('button' in $event) && _vm._k($event.keyCode, "enter", 13, $event.key)) { return null; }
         $event.preventDefault();
         _vm.addChip($event)
       }, function($event) {
@@ -543,7 +543,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-5cd17226", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-e4937628", module.exports)
   }
 }
 
@@ -565,7 +565,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdChips/mdChip.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdChips\\mdChip.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdChip.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -576,9 +576,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2c2a829d", Component.options)
+    hotAPI.createRecord("data-v-acc581d2", Component.options)
   } else {
-    hotAPI.reload("data-v-2c2a829d", Component.options)
+    hotAPI.reload("data-v-acc581d2", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -674,7 +674,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     },
     nativeOn: {
       "keyup": function($event) {
-        if (!('button' in $event) && _vm._k($event.keyCode, "delete", [8, 46])) { return null; }
+        if (!('button' in $event) && _vm._k($event.keyCode, "delete", [8, 46], $event.key)) { return null; }
         !_vm.disabled && _vm.$emit('delete')
       }
     }
@@ -686,7 +686,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-2c2a829d", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-acc581d2", module.exports)
   }
 }
 
@@ -717,7 +717,7 @@ module.exports = exports["default"];
 
 /***/ }),
 
-/***/ 456:
+/***/ 455:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(166);

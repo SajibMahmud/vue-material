@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 452);
+/******/ 	return __webpack_require__(__webpack_require__.s = 451);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -277,7 +277,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdButton/mdButton.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdButton\\mdButton.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdButton.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -288,9 +288,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6dc87da4", Component.options)
+    hotAPI.createRecord("data-v-0e78922c", Component.options)
   } else {
-    hotAPI.reload("data-v-6dc87da4", Component.options)
+    hotAPI.reload("data-v-0e78922c", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -410,7 +410,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-6dc87da4", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-0e78922c", module.exports)
   }
 }
 
@@ -423,7 +423,7 @@ module.exports = ".THEME_NAME.md-button:not([disabled]).md-raised:not(.md-icon-b
 
 /***/ }),
 
-/***/ 452:
+/***/ 451:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(115);

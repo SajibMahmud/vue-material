@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 459);
+/******/ 	return __webpack_require__(__webpack_require__.s = 457);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -217,7 +217,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdDivider/mdDivider.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdDivider\\mdDivider.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdDivider.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -228,9 +228,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5e9f054a", Component.options)
+    hotAPI.createRecord("data-v-17b10510", Component.options)
   } else {
-    hotAPI.reload("data-v-5e9f054a", Component.options)
+    hotAPI.reload("data-v-17b10510", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -284,13 +284,13 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-5e9f054a", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-17b10510", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ 459:
+/***/ 457:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(199);

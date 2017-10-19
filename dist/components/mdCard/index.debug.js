@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 454);
+/******/ 	return __webpack_require__(__webpack_require__.s = 453);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -322,7 +322,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdCard/mdCard.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdCard\\mdCard.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdCard.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -333,9 +333,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-214af038", Component.options)
+    hotAPI.createRecord("data-v-5ec1542a", Component.options)
   } else {
-    hotAPI.reload("data-v-214af038", Component.options)
+    hotAPI.reload("data-v-5ec1542a", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -409,7 +409,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-214af038", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-5ec1542a", module.exports)
   }
 }
 
@@ -431,7 +431,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdCard/mdCardMedia.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdCard\\mdCardMedia.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdCardMedia.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -442,9 +442,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-137f4a90", Component.options)
+    hotAPI.createRecord("data-v-30298bec", Component.options)
   } else {
-    hotAPI.reload("data-v-137f4a90", Component.options)
+    hotAPI.reload("data-v-30298bec", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -525,7 +525,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-137f4a90", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-30298bec", module.exports)
   }
 }
 
@@ -547,7 +547,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdCard/mdCardMediaCover.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdCard\\mdCardMediaCover.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdCardMediaCover.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -558,9 +558,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0df115b7", Component.options)
+    hotAPI.createRecord("data-v-2a5c7b06", Component.options)
   } else {
-    hotAPI.reload("data-v-0df115b7", Component.options)
+    hotAPI.reload("data-v-2a5c7b06", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -683,7 +683,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-0df115b7", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-2a5c7b06", module.exports)
   }
 }
 
@@ -705,7 +705,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdCard/mdCardMediaActions.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdCard\\mdCardMediaActions.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdCardMediaActions.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -716,9 +716,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-04064406", Component.options)
+    hotAPI.createRecord("data-v-25657143", Component.options)
   } else {
-    hotAPI.reload("data-v-04064406", Component.options)
+    hotAPI.reload("data-v-25657143", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -765,7 +765,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-04064406", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-25657143", module.exports)
   }
 }
 
@@ -787,7 +787,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdCard/mdCardHeader.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdCard\\mdCardHeader.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdCardHeader.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -798,9 +798,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-61490f11", Component.options)
+    hotAPI.createRecord("data-v-1a5b0ed7", Component.options)
   } else {
-    hotAPI.reload("data-v-61490f11", Component.options)
+    hotAPI.reload("data-v-1a5b0ed7", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -847,7 +847,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-61490f11", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-1a5b0ed7", module.exports)
   }
 }
 
@@ -869,7 +869,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdCard/mdCardHeaderText.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdCard\\mdCardHeaderText.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdCardHeaderText.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -880,9 +880,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5744755e", Component.options)
+    hotAPI.createRecord("data-v-34252224", Component.options)
   } else {
-    hotAPI.reload("data-v-5744755e", Component.options)
+    hotAPI.reload("data-v-34252224", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -940,7 +940,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-5744755e", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-34252224", module.exports)
   }
 }
 
@@ -962,7 +962,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdCard/mdCardContent.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdCard\\mdCardContent.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdCardContent.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -973,9 +973,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6cb287a5", Component.options)
+    hotAPI.createRecord("data-v-543efec2", Component.options)
   } else {
-    hotAPI.reload("data-v-6cb287a5", Component.options)
+    hotAPI.reload("data-v-543efec2", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -1022,7 +1022,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-6cb287a5", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-543efec2", module.exports)
   }
 }
 
@@ -1044,7 +1044,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdCard/mdCardActions.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdCard\\mdCardActions.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdCardActions.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -1055,9 +1055,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-39548bae", Component.options)
+    hotAPI.createRecord("data-v-4c83b323", Component.options)
   } else {
-    hotAPI.reload("data-v-39548bae", Component.options)
+    hotAPI.reload("data-v-4c83b323", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -1104,7 +1104,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-39548bae", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-4c83b323", module.exports)
   }
 }
 
@@ -1126,7 +1126,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdCard/mdCardArea.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdCard\\mdCardArea.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdCardArea.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -1137,9 +1137,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-180bafde", Component.options)
+    hotAPI.createRecord("data-v-7ef56157", Component.options)
   } else {
-    hotAPI.reload("data-v-180bafde", Component.options)
+    hotAPI.reload("data-v-7ef56157", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -1197,7 +1197,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-180bafde", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-7ef56157", module.exports)
   }
 }
 
@@ -1219,7 +1219,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdCard/mdCardExpand.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdCard\\mdCardExpand.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdCardExpand.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -1230,9 +1230,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0b963c9e", Component.options)
+    hotAPI.createRecord("data-v-76af8738", Component.options)
   } else {
-    hotAPI.reload("data-v-0b963c9e", Component.options)
+    hotAPI.reload("data-v-76af8738", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -1310,7 +1310,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-0b963c9e", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-76af8738", module.exports)
   }
 }
 
@@ -1323,7 +1323,7 @@ module.exports = ".THEME_NAME.md-card {\n  background-color: BACKGROUND-COLOR; }
 
 /***/ }),
 
-/***/ 454:
+/***/ 453:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(127);

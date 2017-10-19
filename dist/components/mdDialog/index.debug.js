@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 458);
+/******/ 	return __webpack_require__(__webpack_require__.s = 456);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -309,7 +309,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdDialog/mdDialog.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdDialog\\mdDialog.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdDialog.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -320,9 +320,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-341e9664", Component.options)
+    hotAPI.createRecord("data-v-81cc60ac", Component.options)
   } else {
-    hotAPI.reload("data-v-341e9664", Component.options)
+    hotAPI.reload("data-v-81cc60ac", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -534,7 +534,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     },
     on: {
       "keyup": function($event) {
-        if (!('button' in $event) && _vm._k($event.keyCode, "esc", 27)) { return null; }
+        if (!('button' in $event) && _vm._k($event.keyCode, "esc", 27, $event.key)) { return null; }
         $event.stopPropagation();
         _vm.closeOnEsc($event)
       }
@@ -559,7 +559,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-341e9664", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-81cc60ac", module.exports)
   }
 }
 
@@ -581,7 +581,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdDialog/mdDialogTitle.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdDialog\\mdDialogTitle.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdDialogTitle.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -592,9 +592,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2ec2b6f8", Component.options)
+    hotAPI.createRecord("data-v-839b7204", Component.options)
   } else {
-    hotAPI.reload("data-v-2ec2b6f8", Component.options)
+    hotAPI.reload("data-v-839b7204", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -641,7 +641,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-2ec2b6f8", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-839b7204", module.exports)
   }
 }
 
@@ -663,7 +663,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdDialog/mdDialogContent.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdDialog\\mdDialogContent.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdDialogContent.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -674,9 +674,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-44792925", Component.options)
+    hotAPI.createRecord("data-v-03ae151f", Component.options)
   } else {
-    hotAPI.reload("data-v-44792925", Component.options)
+    hotAPI.reload("data-v-03ae151f", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -723,7 +723,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-44792925", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-03ae151f", module.exports)
   }
 }
 
@@ -745,7 +745,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdDialog/mdDialogActions.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdDialog\\mdDialogActions.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdDialogActions.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -756,9 +756,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-89c748ae", Component.options)
+    hotAPI.createRecord("data-v-7a5147a3", Component.options)
   } else {
-    hotAPI.reload("data-v-89c748ae", Component.options)
+    hotAPI.reload("data-v-7a5147a3", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -805,7 +805,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-89c748ae", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-7a5147a3", module.exports)
   }
 }
 
@@ -827,7 +827,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdDialog/presets/mdDialogAlert.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdDialog\\presets\\mdDialogAlert.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdDialogAlert.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -838,9 +838,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5d32a2a6", Component.options)
+    hotAPI.createRecord("data-v-5ad53727", Component.options)
   } else {
-    hotAPI.reload("data-v-5d32a2a6", Component.options)
+    hotAPI.reload("data-v-5ad53727", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -947,7 +947,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-5d32a2a6", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-5ad53727", module.exports)
   }
 }
 
@@ -969,7 +969,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdDialog/presets/mdDialogConfirm.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdDialog\\presets\\mdDialogConfirm.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdDialogConfirm.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -980,9 +980,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-c309205e", Component.options)
+    hotAPI.createRecord("data-v-f32c7c6a", Component.options)
   } else {
-    hotAPI.reload("data-v-c309205e", Component.options)
+    hotAPI.reload("data-v-f32c7c6a", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -1101,7 +1101,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-c309205e", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-f32c7c6a", module.exports)
   }
 }
 
@@ -1123,7 +1123,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/marcosmoura/Projects/github/vue-material/src/components/mdDialog/presets/mdDialogPrompt.vue"
+Component.options.__file = "C:\\Work\\Github\\Vue-Material\\trunk\\src\\components\\mdDialog\\presets\\mdDialogPrompt.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key.substr(0, 2) !== "__"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdDialogPrompt.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -1134,9 +1134,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-288a5063", Component.options)
+    hotAPI.createRecord("data-v-662651ae", Component.options)
   } else {
-    hotAPI.reload("data-v-288a5063", Component.options)
+    hotAPI.reload("data-v-662651ae", Component.options)
   }
   module.hot.dispose((function (data) {
     disposed = true
@@ -1272,7 +1272,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     },
     nativeOn: {
       "keydown": function($event) {
-        if (!('button' in $event) && _vm._k($event.keyCode, "enter", 13)) { return null; }
+        if (!('button' in $event) && _vm._k($event.keyCode, "enter", 13, $event.key)) { return null; }
         _vm.confirmValue($event)
       }
     }
@@ -1294,7 +1294,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-288a5063", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-662651ae", module.exports)
   }
 }
 
@@ -1337,7 +1337,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 458:
+/***/ 456:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(175);

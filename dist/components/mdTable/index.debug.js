@@ -1064,13 +1064,14 @@ exports.default = {
   props: {
     mdAutoSelect: Boolean,
     mdSelection: Boolean,
-    checkbox: Boolean,
-    mdItem: Object
+    mdItem: Object,
+    mdSelected: Boolean
   },
   data: function data() {
     return {
       parentTable: {},
       headRow: false,
+      checkbox: this.mdSelected,
       index: 0,
       uuid: 'mdrow_uuid_' + (0, _uniqueId2.default)()
     };
