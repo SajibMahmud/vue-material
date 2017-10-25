@@ -17917,7 +17917,8 @@ exports.default = {
     mdElevation: {
       type: [String, Number],
       default: 0
-    }
+    },
+    mdArrow: Boolean
   },
   mixins: [_mixin2.default],
   data: function data() {
@@ -17977,13 +17978,10 @@ exports.default = {
   },
   methods: {
     getHeaderClass: function getHeaderClass(header) {
-      var customClass = header.class ? ' ' + header.class : '';
-      var activeClass = 'md-active' + customClass;
-      var disabledClass = 'md-disabled' + customClass;
-
       return {
-        activeClass: this.activeTab === header.id,
-        disabledClass: header.disabled
+        'md-active': this.activeTab === header.id,
+        'md-disabled': header.disabled,
+        'md-Arrow': this.mdArrow
       };
     },
     registerTab: function registerTab(tabData) {
