@@ -1006,9 +1006,7 @@ exports.default = {
     getHeaderClass: function getHeaderClass(header) {
       return {
         'md-active': this.activeTab === header.id,
-        'md-disabled': header.disabled,
-        'md-first': header.first,
-        'md-last': header.last
+        'md-disabled': header.disabled
       };
     },
     registerTab: function registerTab(tabData) {
@@ -1446,8 +1444,6 @@ exports.default = {
     mdIconSrc: String,
     mdActive: Boolean,
     mdDisabled: Boolean,
-    mdFirst: Boolean,
-    mdLast: Boolean,
     mdOptions: {
       default: undefined
     },
@@ -1475,12 +1471,6 @@ exports.default = {
       this.updateTabData();
     },
     mdDisabled: function mdDisabled() {
-      this.updateTabData();
-    },
-    mdFirst: function mdFirst() {
-      this.updateTabData();
-    },
-    mdLast: function mdLast() {
       this.updateTabData();
     },
     mdIcon: function mdIcon() {
@@ -1531,8 +1521,6 @@ exports.default = {
         options: this.mdOptions,
         active: this.mdActive,
         disabled: this.mdDisabled,
-        first: this.mdFirst,
-        last: this.mdLast,
         tooltip: this.mdTooltip,
         tooltipDelay: this.mdTooltipDelay,
         tooltipDirection: this.mdTooltipDirection,
