@@ -1004,9 +1004,13 @@ exports.default = {
   },
   methods: {
     getHeaderClass: function getHeaderClass(header) {
+      var customClass = header.class ? ' ' + header.class : '';
+      var activeClass = 'md-active' + customClass;
+      var disabledClass = 'md-disabled' + customClass;
+
       return {
-        'md-active': this.activeTab === header.id,
-        'md-disabled': header.disabled
+        activeClass: this.activeTab === header.id,
+        disabledClass: header.disabled
       };
     },
     registerTab: function registerTab(tabData) {
